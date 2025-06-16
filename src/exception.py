@@ -1,6 +1,5 @@
-import logging
-import logger
 import sys
+from src.logger import logging
 
 
 def error_messeage_detail(error,error_detail:sys):
@@ -19,3 +18,11 @@ class CustomException(Exception):
         return self.error_message
     
     
+if __name__ == "__main__":
+    try:
+        a = 1 / 0
+    except Exception as e:
+        logging.info("Exception has occurred")
+        raise CustomException(e, sys) from e
+    finally:
+        print("This is the end of the script.")
