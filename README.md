@@ -17,7 +17,7 @@ The main objective of this project is to showcase:
 
 ## 🏗️ Project Structure
 
-````
+```
 ML_project/
 ├── artifacts/                  # Stored model and data files
 │   ├── data.csv
@@ -45,21 +45,25 @@ ML_project/
 │   └── index.html
 ├── App.py                   # Flask application
 └── requirements.txt         # Project dependencies
+```
 
 ## 🚀 Setup Process
 
-1. **Create a Virtual Environment**
+### 1. Create a Virtual Environment
+
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-2. **Install Dependencies**
+### 2. Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Run the Application**
+### 3. Run the Application
+
 ```bash
 python App.py
 ```
@@ -105,6 +109,3 @@ Feel free to explore the code structure and use it as a template for your own mo
 ## 📝 License
 
 This project is open-source and available under the MIT License.
-
-
-````
