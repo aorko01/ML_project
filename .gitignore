@@ -1,3 +1,78 @@
+# Python virtual environment
+venv/
 env/
-logs/
-.artifacts/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Model artifacts and large files
+artifacts/*.pkl
+artifacts/*.csv
+*.pkl
+*.csv
+*.h5
+*.joblib
+*.model
+
+# Logs
+logs/*
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Catboost specific
+catboost_info/
+
+# Environment variables
+.env
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Misc
+*.swp
+*.swo
+*~

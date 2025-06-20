@@ -52,19 +52,19 @@ ML_project/
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-````
+```
 
 2. **Install Dependencies**
-
 ```bash
 pip install -r requirements.txt
 ```
 
 3. **Run the Application**
-
 ```bash
 python App.py
 ```
+
+The application will be available at `http://localhost:5000`
 
 ## 📦 Modular Components
 
@@ -102,4 +102,9 @@ This project is ideal for:
 
 Feel free to explore the code structure and use it as a template for your own modular Python projects!
 
+## 📝 License
 
+This project is open-source and available under the MIT License.
+
+
+````
